@@ -256,3 +256,132 @@ overflow:hidden;
     top:100%;
     left:100%;
 }
+/* ===========================
+   TABLET
+=========================== */
+
+@media (max-width:992px){
+
+    .skills{
+        padding:110px 6% 70px;
+    }
+
+    .skills-heading h1{
+        font-size:44px;
+    }
+
+    .skills-heading h4{
+        font-size:24px;
+    }
+
+    .skills-heading p{
+        font-size:17px;
+    }
+
+    .skills-container{
+        grid-template-columns:repeat(2,1fr);
+        gap:25px;
+    }
+
+    .skill-card{
+        padding:25px;
+    }
+
+    .skill-icon{
+        font-size:50px;
+    }
+
+}
+
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width:768px){
+
+    .skills{
+        padding:100px 20px 50px;
+    }
+
+    .skills-heading{
+        margin-bottom:45px;
+    }
+
+    .skills-heading h1{
+        font-size:34px;
+    }
+
+    .skills-heading h4{
+        font-size:20px;
+    }
+
+    .skills-heading p{
+        font-size:16px;
+        line-height:1.8;
+    }
+
+    .skills-container{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .skill-card{
+        padding:22px;
+    }
+
+    .skill-icon{
+        font-size:45px;
+        margin-bottom:15px;
+    }
+
+    .skill-card h3{
+        font-size:22px;
+    }
+
+}
+
+
+/* ===========================
+   SMALL MOBILE
+=========================== */
+
+@media (max-width:480px){
+
+    .skills{
+        padding:90px 15px 40px;
+    }
+
+    .skills-heading h1{
+        font-size:28px;
+    }
+
+    .skills-heading h4{
+        font-size:18px;
+    }
+
+    .skills-heading p{
+        font-size:15px;
+    }
+
+    .skill-card{
+        padding:20px;
+    }
+
+    .skill-icon{
+        font-size:40px;
+    }
+
+    .skill-card h3{
+        font-size:20px;
+    }
+
+    .progress{
+        height:8px;
+    }
+
+    .skill-card span{
+        font-size:15px;
+    }
+
+}

@@ -112,3 +112,175 @@
 .buttons a:hover{
     background:#fff;
 }
+
+/* ===========================
+   TABLET
+=========================== */
+
+@media (max-width:992px){
+
+    .projects{
+        padding:110px 6% 70px;
+    }
+
+    .projects-heading{
+        margin-bottom:50px;
+    }
+
+    .projects-heading h1{
+        font-size:40px;
+    }
+
+    .projects-heading h4{
+        font-size:20px;
+    }
+
+    .projects-heading p{
+        font-size:17px;
+    }
+
+    .projects-container{
+        grid-template-columns:repeat(2,1fr);
+        gap:25px;
+    }
+
+    .project-image{
+        height:220px;
+    }
+
+    .project-card:hover .project-image img{
+        transform:translateY(calc(-100% + 220px));
+    }
+
+    .project-content{
+        padding:22px;
+    }
+
+    .project-content h2{
+        font-size:24px;
+    }
+
+}
+
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width:768px){
+
+    .projects{
+        padding:100px 20px 50px;
+    }
+
+    .projects-heading{
+        margin-bottom:40px;
+    }
+
+    .projects-heading h1{
+        font-size:32px;
+    }
+
+    .projects-heading h4{
+        font-size:18px;
+    }
+
+    .projects-heading p{
+        font-size:16px;
+        line-height:1.8;
+    }
+
+    .projects-container{
+        grid-template-columns:1fr;
+        gap:25px;
+    }
+
+    .project-image{
+        height:220px;
+    }
+
+    .project-card:hover .project-image img{
+        transform:translateY(calc(-100% + 220px));
+    }
+
+    .project-content{
+        padding:20px;
+    }
+
+    .project-content h2{
+        font-size:22px;
+    }
+
+    .project-content p{
+        font-size:15px;
+    }
+
+    .buttons{
+        flex-direction:column;
+        gap:12px;
+    }
+
+    .buttons a{
+        width:100%;
+    }
+
+}
+
+
+/* ===========================
+   SMALL MOBILE
+=========================== */
+
+@media (max-width:480px){
+
+    .projects{
+        padding:90px 15px 40px;
+    }
+
+    .projects-heading h1{
+        font-size:28px;
+    }
+
+    .projects-heading h4{
+        font-size:17px;
+    }
+
+    .projects-heading p{
+        font-size:15px;
+    }
+
+    .projects-container{
+        grid-template-columns:1fr;
+    }
+
+    .project-image{
+        height:180px;
+    }
+
+    .project-card:hover .project-image img{
+        transform:translateY(calc(-100% + 180px));
+    }
+
+    .project-content{
+        padding:18px;
+    }
+
+    .project-content h2{
+        font-size:20px;
+    }
+
+    .tech{
+        gap:8px;
+    }
+
+    .tech span{
+        font-size:12px;
+        padding:7px 12px;
+    }
+
+    .buttons a{
+        font-size:14px;
+        padding:11px;
+    }
+
+}

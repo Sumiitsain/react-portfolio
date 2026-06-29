@@ -96,7 +96,7 @@ function Projects() {
 
             <div className="buttons">
               <a href="#">Live Demo</a>
-              <a href="#">GitHub</a>
+              <a href="https://github.com/Sumiitsain/react-portfolio">GitHub</a>
             </div>
 
           </div>
